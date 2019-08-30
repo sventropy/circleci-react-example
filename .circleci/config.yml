@@ -25,5 +25,6 @@ jobs:
           name: React build
           command: npm run build
       - aws-s3/copy:
-          from: build
+          from: ./build
           to: 's3://circleci-react-test'
+          arguments: '--recursive'
