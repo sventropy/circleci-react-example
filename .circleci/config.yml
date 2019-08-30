@@ -1,9 +1,9 @@
 version: 2
 jobs:
   build:
-    working_directory: ~/src
+    working_directory: ./src
     docker:
-      - image: circleci/node:8
+      - image: circleci/node:10
     steps:
       - checkout
       - restore_cache:
