@@ -6,7 +6,7 @@ jobs:
       - image: circleci/node:10
     steps:
       - checkout:
-        path: ~/circleci-react-example
+          path: ~/circleci-react-example
       - restore_cache:
           key: npm-cache-v1-{{ checksum "package-lock.json" }}
       - run:
