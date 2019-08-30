@@ -27,4 +27,3 @@ jobs:
       - aws-s3/copy:
           from: ./build/
           to: 's3://circleci-react-test'
-          arguments: '--dryrun'
