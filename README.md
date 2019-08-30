@@ -7,3 +7,4 @@ based on [How To Setup Continuous Integration (CI) With React, CircleCI, and Git
 - <https://circleci.com/docs/2.0/ecs-ecr/#section=deployment>
 
 - [Continuously testing React applications with Jest and Enzyme](https://circleci.com/blog/automate-releases-from-pipelines-using-infrastructure-as-code/)
+- config of working dir and checkout dir: <https://circleci.com/docs/2.0/configuration-reference/> & <https://stackoverflow.com/questions/50570221/circleci-2-0-working-with-subdirectory>
